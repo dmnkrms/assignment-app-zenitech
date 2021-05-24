@@ -1,0 +1,44 @@
+### GET
+GET http://localhost:3001/api/ HTTP/1.1
+
+### POST category
+POST http://localhost:3001/api/items
+Content-Type: application/json
+
+{
+  "name": "pants",
+  "root": "men",
+  "value": 1
+}
+
+### POST category
+POST http://localhost:3001/api/items
+Content-Type: application/json
+
+{
+  "name": "shirt",
+  "root": "men",
+  "value": 1
+}
+### POST category
+POST http://localhost:3001/api/items
+Content-Type: application/json
+
+{
+  "name": "boots",
+  "root": "men",
+  "value": 2
+}
+
+### POST category
+POST http://localhost:3001/api/items
+Content-Type: application/json
+
+{
+  "name": "dress",
+  "root": "women",
+  "value": 11
+}
+
+### DELETE item by name and root
+DELETE http://localhost:3001/api/items/shirt/men HTTP/1.1

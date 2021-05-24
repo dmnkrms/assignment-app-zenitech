@@ -1,0 +1,29 @@
+### GET
+GET http://localhost:3001/api/categories
+
+### POST category
+POST http://localhost:3001/api/categories
+Content-Type: application/json
+
+{
+  "name": "Boys"
+}
+
+### POST category
+POST http://localhost:3001/api/categories
+Content-Type: application/json
+
+{
+  "name": "women"
+}
+
+### GET category by name
+GET http://localhost:3001/api/categories/men
+
+### GET sales in category by name
+GET http://localhost:3001/api/categories/men/sales
+
+### DELETE category by name
+DELETE http://localhost:3001/api/categories/women
+
+
